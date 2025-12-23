@@ -389,7 +389,7 @@ With questions where you need to modify API server, you can use [this resource](
 7.  <details>
     <summary>A pod called <code>busy-rx100</code> has been created in the <code>production</code> namespace. Secure the pod by recreating it using the <code>runtimeClass</code> called <code>gvisor</code>. You may delete and recreate the pod.</summary>
 
-    Simply recreate the pod using the YAML file as below. We onlt need to add `runtimeClassName`
+    Simply recreate the pod using the YAML file as below. We only need to add `runtimeClassName`
 
     ```yaml
     apiVersion: v1
